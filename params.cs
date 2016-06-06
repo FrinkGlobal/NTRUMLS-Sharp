@@ -3,7 +3,7 @@ using System.Text;
 using System.Runtime.InteropServices;
 
 namespace NTRUMLS.Params {
-
+  
 
     public enum ParamSetId {
         Xxx20140508401,

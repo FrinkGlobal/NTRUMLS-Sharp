@@ -1,1 +1,2 @@
 Logging made it here variables priv_blob_len_pointer 1371539928 pub_blob_len_pointer 1371539992 priv_blob_len 0 pub_blob_len 0 privkey b pubkey f0b0b 
+Logging made it here variables priv_blob_len_pointer -1480586792 pub_blob_len_pointer -1480586728 priv_blob_len 0 pub_blob_len 0 privkey b pubkey f0b0b 

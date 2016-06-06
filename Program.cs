@@ -10,6 +10,10 @@ namespace NTRUMLS
         {
             KeyPair keypair = NTRUMLSWrapper.generate_keys(ParamSets.Xxx20140508_743);
 
+            Console.WriteLine("Generated Keys!");
+
+            // TODO Sign, than Verify to confirm test
+
         }
     }
 }

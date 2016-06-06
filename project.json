@@ -12,9 +12,11 @@
   },
 
   "frameworks": {
-    "netcoreapp1.0": {
-      "imports": "dnxcore50"
-    }
+    "net45": {
+            "frameworkAssemblies": {
+                "System": { "version": "", "type": "build" }
+            }
+        },
   },
 
   "tooling": {

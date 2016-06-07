@@ -6,7 +6,7 @@ namespace NTRUMLS.ffi {
 
     public static class ffi {
 
-        [DllImport("ntrumls")]
+        [DllImport("ntrumls.dll")]
         public static extern IntPtr pq_gen_key(ParamSet p, IntPtr privkey_blob_len, byte[] privkey_blob, IntPtr pubkey_blob_len, byte[] pubkey_blob);
 
         [DllImport("ntrumls")]

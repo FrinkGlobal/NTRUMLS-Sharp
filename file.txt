@@ -1,2 +1,10 @@
 Logging made it here variables priv_blob_len_pointer 1371539928 pub_blob_len_pointer 1371539992 priv_blob_len 0 pub_blob_len 0 privkey b pubkey f0b0b 
 Logging made it here variables priv_blob_len_pointer -1480586792 pub_blob_len_pointer -1480586728 priv_blob_len 0 pub_blob_len 0 privkey b pubkey f0b0b 
+Logging made it here variables priv_blob_len_pointer 1983908312 pub_blob_len_pointer 1983908376 priv_blob_len 0 pub_blob_len 0 privkey b pubkey f0b0b 
+Logging made it here variables priv_blob_len_pointer 1107298776 pub_blob_len_pointer 1107298840 priv_blob_len 0 pub_blob_len 0 privkey b pubkey f0b0b 
+Logging made it here variables priv_blob_len_pointer 1732250128 pub_blob_len_pointer 1732250192 priv_blob_len 0 pub_blob_len 0 privkey b pubkey f0b0b 
+Logging made it here variables priv_blob_len_pointer -1379923440 pub_blob_len_pointer -1379923376 priv_blob_len 0 pub_blob_len 0 privkey b pubkey f0b0b 
+Logging made it here variables priv_blob_len_pointer -1337980400 pub_blob_len_pointer -1337980336 priv_blob_len 0 pub_blob_len 0 privkey b pubkey f0b0b 
+Logging made it here variables priv_blob_len_pointer -1262482928 pub_blob_len_pointer -1262482864 priv_blob_len 0 pub_blob_len 0 privkey b pubkey f0b0b 
+Logging made it here variables priv_blob_len_pointer 331352592 pub_blob_len_pointer 331352656 priv_blob_len 0 pub_blob_len 0 privkey b pubkey f0b0b 
+Logging made it here variables priv_blob_len_pointer 1677724176 pub_blob_len_pointer 1677724240 priv_blob_len 0 pub_blob_len 0 privkey b pubkey f0b0b 

@@ -3,8 +3,10 @@ using System.Text;
 using System.Runtime.InteropServices;
 
 namespace NTRUMLS.Params {
-  
 
+
+    [SerializableAttribute]
+    [ComVisibleAttribute(true)]
     public enum ParamSetId {
         Xxx20140508401,
         Xxx20140508439,
@@ -21,6 +23,7 @@ namespace NTRUMLS.Params {
 
     [StructLayout(LayoutKind.Sequential)]
     public struct ParamSet {
+
 
         ParamSetId id;
         [MarshalAs(UnmanagedType.LPStr)]

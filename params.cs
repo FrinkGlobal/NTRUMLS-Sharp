@@ -26,8 +26,8 @@ namespace NTRUMLS.Params {
 
 
         ParamSetId id;
-        [MarshalAs(UnmanagedType.LPStr)]
-        string name;
+
+        IntPtr name;
         [MarshalAs(UnmanagedType.ByValArray, SizeConst = 3)]
         byte[] oid;
         [MarshalAs(UnmanagedType.U1)]
@@ -94,7 +94,7 @@ namespace NTRUMLS.Params {
             return (uint)(5 + (n * q_bits + 7) / 8 + 64);
         }
 
-        public ParamSet (ParamSetId ID, string NAME, byte[] OID, byte N_BITS, byte Q_BITS, ushort N, sbyte P, long Q, long B_S, long B_T, long NORM_BOUND_S, long NORM_BOUND_T, byte D1, byte D2, byte D3, ushort PADDED_N) {
+        public ParamSet (ParamSetId ID, IntPtr NAME, byte[] OID, byte N_BITS, byte Q_BITS, ushort N, sbyte P, long Q, long B_S, long B_T, long NORM_BOUND_S, long NORM_BOUND_T, byte D1, byte D2, byte D3, ushort PADDED_N) {
             id = ID;
             name = NAME;
             oid = OID;
@@ -123,7 +123,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20140508_401 = new ParamSet(
                 ParamSetId.Xxx20140508401,
-                "Xxx20140508401",
+                Marshal.StringToHGlobalUni("Xxx20140508401"),
                 new byte[] {0xff, 0xff, 0xff},
                 9,
                 18,
@@ -144,7 +144,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20140508_439 = new ParamSet(
             ParamSetId.Xxx20140508439,
-            "Xxx20140508439",
+            Marshal.StringToHGlobalUni("Xxx20140508439"),
             new byte[] {0xff, 0xff, 0xfe},
             9,
             19,
@@ -165,7 +165,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20140508_593 = new ParamSet(
             ParamSetId.Xxx20140508593,
-            "Xxx20140508593",
+            Marshal.StringToHGlobalAuto("Xxx20140508593"),
             new byte[] {0xff, 0xff, 0xfd},
             10,
             19,
@@ -187,7 +187,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20140508_743 = new ParamSet(
             ParamSetId.Xxx20140508743,
-            "Xxx20140508743",
+            Marshal.StringToHGlobalAuto("Xxx20140508743"),
             new byte[] {0xff, 0xff, 0xfc},
             10,
             20,
@@ -208,7 +208,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20151024_401 = new ParamSet(
             ParamSetId.Xxx20151024401,
-            "Xxx20151024401",
+            Marshal.StringToHGlobalAuto("Xxx20151024401"),
             new byte[] {0xff, 0xff, 0xfb},
             9,
             15,
@@ -230,7 +230,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20151024_443 = new ParamSet(
             ParamSetId.Xxx20151024443,
-            "Xxx20151024443",
+            Marshal.StringToHGlobalAuto("Xxx20151024443"),
             new byte[] {0xff, 0xff, 0xfa},
             9,
             16,
@@ -252,7 +252,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20151024_563 = new ParamSet(
             ParamSetId.Xxx20151024563,
-            "Xxx20151024563",
+            Marshal.StringToHGlobalAuto("Xxx20151024563"),
             new byte[] {0xff, 0xff, 0xf9},
             10,
             16,
@@ -273,7 +273,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20151024_743 = new ParamSet(
             ParamSetId.Xxx20151024743,
-            "Xxx20151024743",
+            Marshal.StringToHGlobalAuto("Xxx20151024743"),
             new byte[] {0xff, 0xff, 0xf7},
             10,
             17,
@@ -294,7 +294,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20151024_907 = new ParamSet(
             ParamSetId.Xxx20151024907,
-            "Xxx20151024907",
+            Marshal.StringToHGlobalAuto("Xxx20151024907"),
             new byte[] {0xff, 0xff, 0xf6},
             10,
             17,

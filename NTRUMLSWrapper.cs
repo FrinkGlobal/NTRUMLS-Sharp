@@ -8,8 +8,8 @@ namespace NTRUMLS.Library {
     public static class NTRUMLSWrapper {
 
         public static KeyPair generate_keys(ParamSet param) {
-            int pub_len = 32;
-            int priv_len = 32;
+            int pub_len = 0;
+            int priv_len = 0;
 
 
             Console.WriteLine("Param N: " + param.get_n());
@@ -33,35 +33,35 @@ namespace NTRUMLS.Library {
             byte[] pv = new byte[priv_len];
             byte[] pb = new byte[pub_len];
 
-            GCHandle pv_handle = GCHandle.Alloc(pv);
-            GCHandle pb_handle = GCHandle.Alloc(pb);
+        //    GCHandle pv_handle = GCHandle.Alloc(pv);
+        //    GCHandle pb_handle = GCHandle.Alloc(pb);
 
 
             var result = ffi.ffi.pq_gen_key(param, out privkey_blob_len, out pv, out pubkey_blob_len, out pb);
 
-            Console.WriteLine("Result: " + result.ToString() + " Private Key BLob Length: " + privkey_blob_len + " Public Key Blob Lengh: " + pubkey_blob_len);
+            Console.WriteLine("Result: " + result + " Private Key BLob Length: " + priv_len + " Public Key Blob Lengh: " + pub_len);
 
 
 
-           if (result.ToInt64() != 0)
+           if (result != 0)
               Console.WriteLine("We got problems");
 
-            // byte[] privatekey_blob = new byte[privkey_blob_len.ToInt64()];
-            // byte[] pubkey_blob = new byte[pubkey_blob_len.ToInt64()];
-            //
-            // result = ffi.ffi.pq_gen_key(param, privkey_blob_len, privatekey_blob, pubkey_blob_len, pubkey_blob);
+             byte[] privatekey_blob = new byte[privkey_blob_len.ToInt64()];
+             byte[] pubkey_blob = new byte[pubkey_blob_len.ToInt64()];
 
-//            if (result.ToInt32() != 0)
-//                return;
+             result = ffi.ffi.pq_gen_key(param, out privkey_blob_len, out privatekey_blob, out pubkey_blob_len, out pubkey_blob);
 
-//            Console.WriteLine("Result: " + result.ToString() + " Private Key BLob Length: " + privkey_blob_len + " Public Key Blob Lengh: " + pubkey_blob_len);
-//
-            byte[] privkeyBytes = new byte[privkey_blob_len.ToInt32()];
-            byte[] pubkeyBytes = new byte[pubkey_blob_len.ToInt32()];
+            if (result != 0)
+                Console.WriteLine("We got problems");
+
+           Console.WriteLine("Result: " + result.ToString() + " Private Key BLob Length: " + privkey_blob_len + " Public Key Blob Lengh: " + pubkey_blob_len);
+
+            // byte[] privkeyBytes = new byte[priv_len.ToInt32()];
+            // byte[] pubkeyBytes = new byte[pub_len.ToInt32()];
 
 
 
-            return new KeyPair(new PrivateKey(pubkeyBytes), new PublicKey(privkeyBytes));;
+            return new KeyPair(new PrivateKey(pubkey_blob), new PublicKey(privatekey_blob));;
 
         }
 

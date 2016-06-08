@@ -1,7 +1,7 @@
 # NTRUMLS-Sharp
 NTRUMLS C# Wrapper
 
-This wrapper implements an interface with [*NTRUMLS C*] (https://github.com/NTRUOpenSourceProject/NTRUMLS) It is currently under development and the documentation is coming soon.
+This wrapper implements an interface with [*NTRUMLS C*] (https://github.com/NTRUOpenSourceProject/NTRUMLS) It is currently under development the documentation is coming soon.
 
 This wrapper intends to use only Mono 2.0  libraries to make it compatible with with other software packages such as [*Unity3d*] (http://unity3d.com/).   
 
@@ -12,10 +12,15 @@ Download NTRUMLS source [here] (https://github.com/NTRUOpenSourceProject/NTRUMLS
 
 Mono
 
-Download latest distribution [here] (http://www.mono-project.com/download/)
+Download and install latest distribution [here] (http://www.mono-project.com/download/)
 
 ## Compiling NTRUMLS Shared C Library
 
+In a shell terminal, navigate to the directory where you extracted NTRUMLS-master
+
+for example
+
+`cd ~/Downloads/NTRUMLS-master`
 
 ### LINUX
 `gcc -c -fpic src/crypto_hash512.c src/crypto_stream.c src/randombytes.c src/fastrandombytes.c src/shred.c src/convert.c src/pack.c src/pol.c src/params.c src/pqntrusign.c`
@@ -27,6 +32,25 @@ Download latest distribution [here] (http://www.mono-project.com/download/)
 
 `gcc -shared -o ntrumls.dll crypto_hash512.o crypto_stream.o randombytes-vs.o fastrandombytes.o shred.o convert.o pack.o pol.o params.o pqntrusign.o`
 
+## Compiling & testing NTRUMLS-Sharp Test Executable
+
+In a shell terminal, navigate to the directory where you extracted NTRUMLS-Sharp
+
+for example
+
+`cd ~/Downloads/NTRUMLS-Sharp`
+
+copy the compiled NTRUMLS shared library into NTRUMLS-Sharp directory
+
+`cp ~/Downloads/NTRUMLS-master/libntrumls.so libntrumls.so`
+
+compile the C# code
+
+`mcs Program.cs ffi.cs params.cs NTRUMLSwrapper.cs`
+
+execute the test program
+
+`mono Program.exe`
 
 # License
 

@@ -6,11 +6,12 @@ This wrapper implements an interface with [*NTRUMLS C*] (https://github.com/NTRU
 This wrapper intends to use only Mono 2.0  libraries to make it compatible with with other software packages such as [*Unity3d*] (http://unity3d.com/).   
 
 ## Dependencies
-NTRUMLS C Source
+
+### NTRUMLS C Source
 
 Download NTRUMLS source [here] (https://github.com/NTRUOpenSourceProject/NTRUMLS)
 
-Mono
+### Mono
 
 Download and install latest distribution [here] (http://www.mono-project.com/download/)
 
@@ -32,7 +33,7 @@ for example
 
 `gcc -shared -o ntrumls.dll crypto_hash512.o crypto_stream.o randombytes-vs.o fastrandombytes.o shred.o convert.o pack.o pol.o params.o pqntrusign.o`
 
-## Compiling & testing NTRUMLS-Sharp Test Executable
+## Compiling & Testing NTRUMLS-Sharp
 
 In a shell terminal, navigate to the directory where you extracted NTRUMLS-Sharp
 

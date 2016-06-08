@@ -47,7 +47,7 @@ copy the compiled NTRUMLS shared library into NTRUMLS-Sharp directory
 
 compile the C# code
 
-`mcs Program.cs ffi.cs params.cs NTRUMLSwrapper.cs`
+`mcs Program.cs ffi.cs params.cs NTRUMLSWrapper.cs`
 
 execute the test program
 

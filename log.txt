@@ -1,0 +1,6 @@
+Logging made it here variables priv_blob_len_pointer -923442424 pub_blob_len_pointer -923442432 priv_blob_len -994004096 pub_blob_len -994004064 privkey c8f56510 pubkey f0b0b 
+Logging param ID: 3 Oid c8f56528 : N: 0 Q: 42678032 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
+Logging Local N: 0 Q: 42678032 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
+Logging made it here variables priv_blob_len_pointer -923442424 pub_blob_len_pointer -923442432 priv_blob_len -994003392 pub_blob_len -994003352 privkey c8f56510 pubkey f0b0b 
+Logging param ID: 3 Oid c8f56528 : N: 0 Q: 42678032 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
+Logging Local N: 0 Q: 42678032 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 

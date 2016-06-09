@@ -351,3 +351,14 @@ Made it past packed bytes
 Made it past null check 
 Made it past length check 
 Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer 1554396248 pub_blob_len_pointer 1554396240 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer 1554396248 pub_blob_len_pointer 1554396240 priv_blob_len 340 pub_blob_len 1927 privkey 2699f10 pubkey 269a070 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Made it past null check 
+Made it past length check 
+Made it past form bytes 

@@ -103,9 +103,26 @@ namespace NTRUMLS.Library {
 
         public static bool verify(byte[] signature, PublicKey public_key, byte[] message) {
 
-        //  var result = ffi.ffi.pq_verify(IntPtr packed_sig_len, IntPtr packed_sig, IntPtr public_key_len, IntPtr public_key_blob, IntPtr msg_len, IntPtr msg)
+            IntPtr sig_len = new IntPtr(signature.Length);
+            IntPtr pub_len = new IntPtr(public_key.get_bytes().Length);
+            IntPtr msg_len = new IntPtr(message.Length);
 
-          return false;
+            IntPtr sig = Marshal.AllocHGlobal(signature.Length);
+            IntPtr msg = Marshal.AllocHGlobal(message.Length);
+            IntPtr pub_blob = Marshal.AllocHGlobal(public_key.get_bytes().Length);
+
+            Marshal.Copy(signature, 0, sig, signature.Length);
+            Marshal.Copy(message, 0, msg, message.Length);
+            Marshal.Copy(public_key.get_bytes(), 0, pub_blob, public_key.get_bytes().Length);
+
+            var result = ffi.ffi.pq_verify(sig_len, sig, pub_len, pub_blob, msg_len, msg);
+
+
+            Marshal.FreeHGlobal(sig);
+            Marshal.FreeHGlobal(pub_blob);
+            Marshal.FreeHGlobal(msg);
+
+            return result == 0;
         }
 
     }

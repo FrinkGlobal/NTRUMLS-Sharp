@@ -26,6 +26,15 @@ namespace NTRUMLS
 
             Console.WriteLine("\nSigned Message!");
 
+            if (NTRUMLSWrapper.verify(signature, keypair.getPublic(), msg))
+            {
+              Console.WriteLine("\n Message Verified!");
+            }
+            else
+            {
+              Console.WriteLine("\n Message Not Verified!");
+            }
+
         }
     }
 }

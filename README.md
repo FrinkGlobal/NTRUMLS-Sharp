@@ -5,6 +5,11 @@ This wrapper implements an interface with [*NTRUMLS C*] (https://github.com/NTRU
 
 This wrapper intends to use only Mono 2.0  libraries to make it compatible with with other software packages such as [*Unity3d*] (http://unity3d.com/).   
 
+### TODO
+- [x] Generate Keys
+- [] Sign message Keys
+- [] Verify message
+
 ## Dependencies
 
 ### NTRUMLS C Source
@@ -53,11 +58,7 @@ execute the test program
 
 `mono Program.exe`
 
-
 # Known Issues
-
-## Linux
-Marshalling error when generating keys
 
 ## Windows
 Throws DLL not found issue, even though the ntrumls.dll is the same folder and System32 folder

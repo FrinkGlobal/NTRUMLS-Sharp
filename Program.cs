@@ -12,7 +12,8 @@ namespace NTRUMLS
 
             Console.WriteLine("Generated Keys!");
 
-            //Console.WriteLine(keypair.getPublic().get_bytes());
+            for (int x = 0; x < keypair.getPublic().get_bytes().Length; x++)
+                Console.WriteLine(keypair.getPublic().get_bytes()[x]);
             // TODO Sign, than Verify to confirm test
 
         }

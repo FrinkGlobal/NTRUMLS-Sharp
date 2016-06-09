@@ -1,205 +1,221 @@
-Logging made it here variables priv_blob_len_pointer -923442424 pub_blob_len_pointer -923442432 priv_blob_len -994004096 pub_blob_len -994004064 privkey c8f56510 pubkey f0b0b 
-Logging param ID: 3 Oid c8f56528 : N: 0 Q: 42678032 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging Local N: 0 Q: 42678032 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging made it here variables priv_blob_len_pointer -923442424 pub_blob_len_pointer -923442432 priv_blob_len -994003392 pub_blob_len -994003352 privkey c8f56510 pubkey f0b0b 
-Logging param ID: 3 Oid c8f56528 : N: 0 Q: 42678032 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging Local N: 0 Q: 42678032 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging made it here variables priv_blob_len_pointer 1831999528 pub_blob_len_pointer 1831999520 priv_blob_len 1614852992 pub_blob_len 1614853024 privkey 6d321a30 pubkey f0b0b 
-Logging param ID: 3 Oid 6d321a48 : N: 0 Q: 31913744 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging Local N: 0 Q: 31913744 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging made it here variables priv_blob_len_pointer 1831999528 pub_blob_len_pointer 1831999520 priv_blob_len 1614853696 pub_blob_len 1614853736 privkey 6d321a30 pubkey f0b0b 
-Logging param ID: 3 Oid 6d321a48 : N: 0 Q: 31913744 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging Local N: 0 Q: 31913744 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging made it here variables priv_blob_len_pointer 2131143624 pub_blob_len_pointer 2131143616 priv_blob_len 461419392 pub_blob_len 461419424 privkey 7f06add0 pubkey f0b0b 
-Logging param ID: 3 Oid 7f06ade8 : N: 0 Q: 18007824 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging Local N: 0 Q: 18007824 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging made it here variables priv_blob_len_pointer 2131143624 pub_blob_len_pointer 2131143616 priv_blob_len 461420096 pub_blob_len 461420136 privkey 7f06add0 pubkey f0b0b 
-Logging param ID: 3 Oid 7f06ade8 : N: 0 Q: 18007824 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging Local N: 0 Q: 18007824 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging made it here variables priv_blob_len_pointer 1101282776 pub_blob_len_pointer 1101282768 priv_blob_len -557796480 pub_blob_len -557796448 privkey 41a43fe0 pubkey f0b0b 
-Logging param ID: 3 Oid 41a43ff8 : N: 0 Q: 33134352 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging Local N: 0 Q: 33134352 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging made it here variables priv_blob_len_pointer 1101282776 pub_blob_len_pointer 1101282768 priv_blob_len -557795776 pub_blob_len -557795736 privkey 41a43fe0 pubkey f0b0b 
-Logging param ID: 3 Oid 41a43ff8 : N: 0 Q: 33134352 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging Local N: 0 Q: 33134352 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging made it here variables priv_blob_len_pointer -182525576 pub_blob_len_pointer -182525584 priv_blob_len 16823168 pub_blob_len 16823200 privkey f51ee380 pubkey f0b0b 
-Logging param ID: 3 Oid f51ee398 : N: 0 Q: 43636496 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging Local N: 0 Q: 43636496 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging made it here variables priv_blob_len_pointer -182525576 pub_blob_len_pointer -182525584 priv_blob_len 16823872 pub_blob_len 16823912 privkey f51ee380 pubkey f0b0b 
-Logging param ID: 3 Oid f51ee398 : N: 0 Q: 43636496 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging Local N: 0 Q: 43636496 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging made it here variables priv_blob_len_pointer 982750168 pub_blob_len_pointer 982750160 priv_blob_len -960449664 pub_blob_len -960449632 privkey 3a9395e0 pubkey f0b0b 
-Logging param ID: 3 Oid 3a9395f8 : N: 0 Q: 38160144 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging Local N: 0 Q: 38160144 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging made it here variables priv_blob_len_pointer 982750168 pub_blob_len_pointer 982750160 priv_blob_len -960448960 pub_blob_len -960448920 privkey 3a9395e0 pubkey f0b0b 
-Logging param ID: 3 Oid 3a9395f8 : N: 0 Q: 38160144 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging Local N: 0 Q: 38160144 P 19 Padded N: 0 D1: 11 D2: 0 D3: 0 
-Logging made it here variables priv_blob_len_pointer 416136192 pub_blob_len_pointer 416136184 priv_blob_len 3 pub_blob_len 11 privkey 18cdbaa8 pubkey 18cdbab0 
-Logging param ID: 3 Oid 1fd0fb0 : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer 416136192 pub_blob_len_pointer 416136184 priv_blob_len 3 pub_blob_len 11 privkey 18cdbaa8 pubkey 18cdbab0 
-Logging param ID: 3 Oid 1fd0fb0 : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer 1159163016 pub_blob_len_pointer 1159163008 priv_blob_len 3 pub_blob_len 11 privkey 45176c78 pubkey 45176c70 
-Logging param ID: 3 Oid 1ed0330 : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer 1159163016 pub_blob_len_pointer 1159163008 priv_blob_len 3 pub_blob_len 11 privkey 45176c78 pubkey 45176c70 
-Logging param ID: 3 Oid 1ed0330 : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer -1782210536 pub_blob_len_pointer -1782210544 priv_blob_len 3 pub_blob_len 11 privkey 95c5a008 pubkey 95c5a000 
-Logging param ID: 3 Oid 1a57350 : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer -1782210536 pub_blob_len_pointer -1782210544 priv_blob_len 3 pub_blob_len 11 privkey 95c5a008 pubkey 95c5a000 
-Logging param ID: 3 Oid 1a57350 : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer -1711153512 pub_blob_len_pointer -1711153520 priv_blob_len 3 pub_blob_len 11 privkey 9a01de88 pubkey 9a01de80 
-Logging param ID: 3 Oid 1473ee0 : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer -1711153512 pub_blob_len_pointer -1711153520 priv_blob_len 3 pub_blob_len 11 privkey 9a01de88 pubkey 9a01de80 
-Logging param ID: 3 Oid 1473ee0 : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer 424471336 pub_blob_len_pointer 424471328 priv_blob_len 0 pub_blob_len 0 privkey 194ceb18 pubkey 194ceb10 
-Logging param ID: 3 Oid e97c30 : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer 424471336 pub_blob_len_pointer 424471328 priv_blob_len 0 pub_blob_len 0 privkey 194ceb18 pubkey 194ceb10 
-Logging param ID: 3 Oid e97c30 : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer -1029786840 pub_blob_len_pointer -1029786848 priv_blob_len 0 pub_blob_len 0 privkey c29eb318 pubkey c29eb310 
-Logging param ID: 3 Oid 2772d30 : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer -1029786840 pub_blob_len_pointer -1029786848 priv_blob_len 0 pub_blob_len 0 privkey c29eb318 pubkey c29eb310 
-Logging param ID: 3 Oid 2772d30 : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer -1394620616 pub_blob_len_pointer -1394620624 priv_blob_len 32 pub_blob_len 32 privkey acdfc728 pubkey acdfc720 
-Logging param ID: 3 Oid 2641dc0 : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer -1394620616 pub_blob_len_pointer -1394620624 priv_blob_len 32 pub_blob_len 32 privkey acdfc728 pubkey acdfc720 
-Logging param ID: 3 Oid 2641dc0 : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer 1425926648 pub_blob_len_pointer 1425926640 priv_blob_len 32 pub_blob_len 32 privkey 54fde9e8 pubkey 54fde9e0 
-Logging param ID: 3 Oid 2111eb0 : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer 1425926648 pub_blob_len_pointer 1425926640 priv_blob_len 32 pub_blob_len 32 privkey 54fde9e8 pubkey 54fde9e0 
-Logging param ID: 3 Oid 2111eb0 : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer 1881527560 pub_blob_len_pointer 1881527552 priv_blob_len 32 pub_blob_len 32 privkey 7025d4f8 pubkey 7025d4f0 
-Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer 1881527560 pub_blob_len_pointer 1881527552 priv_blob_len 32 pub_blob_len 32 privkey 7025d4f8 pubkey 7025d4f0 
-Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer -1226271464 pub_blob_len_pointer -1226271472 priv_blob_len 32 pub_blob_len 32 privkey b6e89508 pubkey b6e89500 
-Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer -1226271464 pub_blob_len_pointer -1226271472 priv_blob_len 32 pub_blob_len 32 privkey b6e89508 pubkey b6e89500 
-Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer -1634337896 pub_blob_len_pointer -1634337904 priv_blob_len 32 pub_blob_len 32 privkey 9e95fb88 pubkey 9e95fb80 
-Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer -1634337896 pub_blob_len_pointer -1634337904 priv_blob_len 32 pub_blob_len 32 privkey 9e95fb88 pubkey 9e95fb80 
-Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer -1516668792 pub_blob_len_pointer -1516668800 priv_blob_len 32 pub_blob_len 32 privkey a5997878 pubkey a5997870 
-Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer -1516668792 pub_blob_len_pointer -1516668800 priv_blob_len 32 pub_blob_len 32 privkey a5997878 pubkey a5997870 
-Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer -1132781464 pub_blob_len_pointer -1132781472 priv_blob_len 32 pub_blob_len 32 privkey bc7b2058 pubkey bc7b2050 
-Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer -1132781464 pub_blob_len_pointer -1132781472 priv_blob_len 32 pub_blob_len 32 privkey bc7b2058 pubkey bc7b2050 
-Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging made it here variables priv_blob_len_pointer 1351695272 pub_blob_len_pointer 1351695264 priv_blob_len 32 pub_blob_len 32 privkey 50913b98 pubkey 50913b90 
+Logging made it here variables priv_blob_len_pointer 1123416872 pub_blob_len_pointer 1123416864 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
 Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Made it past packed bytes 
-Made it past null check 
-Logging made it here variables priv_blob_len_pointer 1351695272 pub_blob_len_pointer 1351695264 priv_blob_len 32 pub_blob_len 32 privkey 50913b98 pubkey 50913b90 
-Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Made it past packed bytes 
-Made it past null check 
-Logging made it here variables priv_blob_len_pointer 535565528 pub_blob_len_pointer 535565520 priv_blob_len 32 pub_blob_len 32 privkey 1fec14c8 pubkey 1fec14c0 
-Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Made it past packed bytes 
-Made it past null check 
-*privkey_blob_len: 32 private_key_blob_len: 340  *pubkey_blob_len: 32 public_key_blob_len: 1927 
-Logging made it here variables priv_blob_len_pointer 535565528 pub_blob_len_pointer 535565520 priv_blob_len 32 pub_blob_len 32 privkey 1fec14c8 pubkey 1fec14c0 
-Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
-Made it past packed bytes 
-Made it past null check 
-*privkey_blob_len: 32 private_key_blob_len: 340  *pubkey_blob_len: 32 public_key_blob_len: 1927 
-Logging made it here variables priv_blob_len_pointer 2142180088 pub_blob_len_pointer 2142180080 priv_blob_len 340 pub_blob_len 1927 privkey 7faf12e8 pubkey 7faf12e0 
+Logging made it here variables priv_blob_len_pointer -64801248 pub_blob_len_pointer -64801256 priv_blob_len 340 pub_blob_len 1927 privkey 286d610 pubkey 286d770 
 Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Made it past packed bytes 
 Made it past null check 
 Made it past length check 
 Made it past form bytes 
-Logging made it here variables priv_blob_len_pointer 2142180088 pub_blob_len_pointer 2142180080 priv_blob_len 606604641 pub_blob_len 1311193769 privkey 7faf12e8 pubkey 7faf12e0 
+Logging made it here variables priv_blob_len_pointer -64801248 pub_blob_len_pointer -64801256 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer -306642464 pub_blob_len_pointer -306642472 priv_blob_len 340 pub_blob_len 1927 privkey 244b5c0 pubkey 244b720 
 Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Made it past packed bytes 
 Made it past null check 
-*privkey_blob_len: 606604641 private_key_blob_len: 340  *pubkey_blob_len: 1311193769 public_key_blob_len: 1927 
-Logging made it here variables priv_blob_len_pointer -512800664 pub_blob_len_pointer -512800672 priv_blob_len 32 pub_blob_len 32 privkey e16f4858 pubkey e16f4850 
+Made it past length check 
+Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer -306642464 pub_blob_len_pointer -306642472 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer -1575213104 pub_blob_len_pointer -1575213112 priv_blob_len 340 pub_blob_len 1927 privkey ea8610 pubkey ea8770 
 Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Made it past packed bytes 
 Made it past null check 
-*privkey_blob_len: 32 private_key_blob_len: 340  *pubkey_blob_len: 32 public_key_blob_len: 1927 
-Logging made it here variables priv_blob_len_pointer -512800664 pub_blob_len_pointer -512800672 priv_blob_len 32 pub_blob_len 32 privkey e16f4858 pubkey e16f4850 
+Made it past length check 
+Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer -1575213104 pub_blob_len_pointer -1575213112 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer -1172455224 pub_blob_len_pointer -1172455232 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer -549512584 pub_blob_len_pointer -549512592 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer 666833152 pub_blob_len_pointer 666833144 priv_blob_len 340 pub_blob_len 1927 privkey 1ea8610 pubkey 1ea8770 
 Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Made it past packed bytes 
 Made it past null check 
-*privkey_blob_len: 32 private_key_blob_len: 340  *pubkey_blob_len: 32 public_key_blob_len: 1927 
-Logging made it here variables priv_blob_len_pointer 1634533016 pub_blob_len_pointer 1634533008 priv_blob_len 32 pub_blob_len 32 privkey 616cfe88 pubkey 616cfe80 
+Made it past length check 
+Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer 666833152 pub_blob_len_pointer 666833144 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer 1848477440 pub_blob_len_pointer 1848477432 priv_blob_len 340 pub_blob_len 1927 privkey 21c2430 pubkey 21c2590 
 Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Made it past packed bytes 
 Made it past null check 
-*privkey_blob_len: 32 private_key_blob_len: 340  *pubkey_blob_len: 32 public_key_blob_len: 1927 
-Logging made it here variables priv_blob_len_pointer 1634533016 pub_blob_len_pointer 1634533008 priv_blob_len 32 pub_blob_len 32 privkey 616cfe88 pubkey 616cfe80 
+Made it past length check 
+Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer 1848477440 pub_blob_len_pointer 1848477432 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer 1004179968 pub_blob_len_pointer 1004179960 priv_blob_len 340 pub_blob_len 1927 privkey 17ef610 pubkey 17ef770 
 Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Made it past packed bytes 
 Made it past null check 
-*privkey_blob_len: 32 private_key_blob_len: 340  *pubkey_blob_len: 32 public_key_blob_len: 1927 
-Logging made it here variables priv_blob_len_pointer -898302056 pub_blob_len_pointer -898302064 priv_blob_len 340 pub_blob_len 1927 privkey 0 pubkey 0 
+Made it past length check 
+Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer 1004179968 pub_blob_len_pointer 1004179960 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
 Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Made it past packed bytes 
-Logging made it here variables priv_blob_len_pointer -898302056 pub_blob_len_pointer -898302064 priv_blob_len 32 pub_blob_len 32 privkey 0 pubkey 0 
+Logging made it here variables priv_blob_len_pointer 1552826848 pub_blob_len_pointer 1552826840 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
 Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Made it past packed bytes 
-Logging made it here variables priv_blob_len_pointer 108734408 pub_blob_len_pointer 108734400 priv_blob_len 340 pub_blob_len 1927 privkey 0 pubkey 0 
+Logging made it here variables priv_blob_len_pointer 1552826848 pub_blob_len_pointer 1552826840 priv_blob_len 340 pub_blob_len 1927 privkey 28c6210 pubkey 28c6370 
 Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Made it past packed bytes 
-Logging made it here variables priv_blob_len_pointer 108734408 pub_blob_len_pointer 108734400 priv_blob_len 32 pub_blob_len 32 privkey 0 pubkey 0 
+Made it past null check 
+Made it past length check 
+Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer 1516084208 pub_blob_len_pointer 1516084200 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
 Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Made it past packed bytes 
-Logging made it here variables priv_blob_len_pointer 582494616 pub_blob_len_pointer 582494608 priv_blob_len 340 pub_blob_len 1927 privkey 0 pubkey 0 
+Logging made it here variables priv_blob_len_pointer 1516084208 pub_blob_len_pointer 1516084200 priv_blob_len 340 pub_blob_len 1927 privkey 2386300 pubkey 2386460 
 Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Made it past packed bytes 
-Logging made it here variables priv_blob_len_pointer 582494616 pub_blob_len_pointer 582494608 priv_blob_len 32 pub_blob_len 32 privkey 0 pubkey 0 
+Made it past null check 
+Made it past length check 
+Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer 616769600 pub_blob_len_pointer 616769592 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
 Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Made it past packed bytes 
-Logging made it here variables priv_blob_len_pointer -347512216 pub_blob_len_pointer -347512224 priv_blob_len 340 pub_blob_len 1927 privkey 0 pubkey 0 
+Logging made it here variables priv_blob_len_pointer 616769600 pub_blob_len_pointer 616769592 priv_blob_len 340 pub_blob_len 1927 privkey dc24b0 pubkey dbf090 
 Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Made it past packed bytes 
-Logging made it here variables priv_blob_len_pointer -347512216 pub_blob_len_pointer -347512224 priv_blob_len 32 pub_blob_len 32 privkey 0 pubkey 0 
+Made it past null check 
+Made it past length check 
+Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer 278837232 pub_blob_len_pointer 278837224 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
 Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
 Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer 278837232 pub_blob_len_pointer 278837224 priv_blob_len 340 pub_blob_len 1927 privkey f4e4b0 pubkey f4b090 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Made it past null check 
+Made it past length check 
+Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer -2026153376 pub_blob_len_pointer -2026153384 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer -2026153376 pub_blob_len_pointer -2026153384 priv_blob_len 340 pub_blob_len 1927 privkey 1de2300 pubkey 1de2460 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Made it past null check 
+Made it past length check 
+Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer -1308580096 pub_blob_len_pointer -1308580104 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer -1308580096 pub_blob_len_pointer -1308580104 priv_blob_len 340 pub_blob_len 1927 privkey 19214b0 pubkey 191e090 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Made it past null check 
+Made it past length check 
+Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer -2088325456 pub_blob_len_pointer -2088325464 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer -2088325456 pub_blob_len_pointer -2088325464 priv_blob_len 340 pub_blob_len 1927 privkey 13c2300 pubkey 13c2460 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Made it past null check 
+Made it past length check 
+Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer -252427600 pub_blob_len_pointer -252427608 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer -252427600 pub_blob_len_pointer -252427608 priv_blob_len 340 pub_blob_len 1927 privkey 1e01300 pubkey 1e01460 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Made it past null check 
+Made it past length check 
+Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer -1748135408 pub_blob_len_pointer -1748135416 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer -1748135408 pub_blob_len_pointer -1748135416 priv_blob_len 340 pub_blob_len 1927 privkey 18621b0 pubkey 1862310 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Made it past null check 
+Made it past length check 
+Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer -47350392 pub_blob_len_pointer -47350400 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer -47350392 pub_blob_len_pointer -47350400 priv_blob_len 340 pub_blob_len 1927 privkey 12361b0 pubkey 1236310 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Made it past null check 
+Made it past length check 
+Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer -654680056 pub_blob_len_pointer -654680064 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer -654680056 pub_blob_len_pointer -654680064 priv_blob_len 340 pub_blob_len 1927 privkey 244a2e0 pubkey 244a440 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Made it past null check 
+Made it past length check 
+Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer -242456696 pub_blob_len_pointer -242456704 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer -242456696 pub_blob_len_pointer -242456704 priv_blob_len 340 pub_blob_len 1927 privkey 1d28660 pubkey 1d287c0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Made it past null check 
+Made it past length check 
+Made it past form bytes 
+Logging made it here variables priv_blob_len_pointer -2124843816 pub_blob_len_pointer -2124843824 priv_blob_len 0 pub_blob_len 0 privkey 0 pubkey 0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Logging made it here variables priv_blob_len_pointer -2124843816 pub_blob_len_pointer -2124843824 priv_blob_len 340 pub_blob_len 1927 privkey 2a21760 pubkey 2a218c0 
+Logging param ID: 3 Oid ff : N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Logging Local N: 743 Q: 1048576 P 3 Padded N: 768 D1: 11 D2: 11 D3: 15 
+Made it past packed bytes 
+Made it past null check 
+Made it past length check 
+Made it past form bytes 

@@ -187,7 +187,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20140508_743 = new ParamSet(
             ParamSetId.Xxx20140508743,
-            Marshal.StringToHGlobalAuto("Xxx20140508743"),
+            Marshal.StringToHGlobalAuto("Xxx20140508743\0"),
             new byte[] {0xff, 0xff, 0xfc},
             10,
             20,

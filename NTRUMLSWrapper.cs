@@ -18,9 +18,10 @@ namespace NTRUMLS.Library {
 
             Marshal.StructureToPtr(param, parameter, false);
 
+            IntPtr pv_ptr = IntPtr.Zero;
+            IntPtr pb_ptr = IntPtr.Zero;
 
-
-            var result = ffi.ffi.pq_gen_key(parameter, out privkey_blob_len, IntPtr.Zero, out pubkey_blob_len, IntPtr.Zero);
+            var result = ffi.ffi.pq_gen_key(parameter, out privkey_blob_len, pv_ptr, out pubkey_blob_len, pb_ptr);
 
             Console.WriteLine("Result: " + result + " Private Key BLob Length: " + privkey_blob_len.ToInt32() + " Public Key Blob Lengh: " + pubkey_blob_len);
 
@@ -28,16 +29,9 @@ namespace NTRUMLS.Library {
            if (result != 0)
               Console.WriteLine("We got problems");
 
-            byte[] pv = new byte[privkey_blob_len.ToInt32()];
-            byte[] pb = new byte[pubkey_blob_len.ToInt32()];
 
-
-            IntPtr pv_ptr = Marshal.AllocHGlobal(pv.Length);
-            IntPtr pb_ptr = Marshal.AllocHGlobal(pb.Length);
-
-            Marshal.Copy(pv, 0, pv_ptr, pv.Length);
-            Marshal.Copy(pb, 0, pb_ptr, pb.Length);
-
+            pv_ptr = Marshal.AllocHGlobal(privkey_blob_len.ToInt32());
+            pb_ptr = Marshal.AllocHGlobal(pubkey_blob_len.ToInt32());
 
 
             result = ffi.ffi.pq_gen_key(parameter, out privkey_blob_len, pv_ptr, out pubkey_blob_len, pb_ptr);
@@ -67,34 +61,44 @@ namespace NTRUMLS.Library {
             uint sign_len = 0;
 
             IntPtr sign = IntPtr.Zero;
-
             IntPtr sign_length_ptr = new IntPtr(sign_len);
 
-            IntPtr private_key_blob = Marshal.AllocHGlobal(Marshal.SizeOf(private_key.get_bytes()));
+            IntPtr private_key_blob = Marshal.AllocHGlobal(private_key.get_bytes().Length);
+            IntPtr public_key_blob = Marshal.AllocHGlobal(public_key.get_bytes().Length);
+            IntPtr message_ptr = Marshal.AllocHGlobal(message.Length);
 
-            Marshal.StructureToPtr(private_key.get_bytes(), private_key_blob, false);
+            IntPtr pub_key_len = new IntPtr(public_key.get_bytes().Length);
+            IntPtr priv_key_len = new IntPtr(private_key.get_bytes().Length);
+            IntPtr message_len = new IntPtr(message.Length);
 
-            IntPtr public_key_blob = Marshal.AllocHGlobal(Marshal.SizeOf(public_key.get_bytes()));
+            Marshal.Copy(private_key.get_bytes(), 0, private_key_blob, private_key.get_bytes().Length);
+            Marshal.Copy(public_key.get_bytes(), 0, public_key_blob, public_key.get_bytes().Length);
+            Marshal.Copy(message, 0, message_ptr, message.Length);
 
-            Marshal.StructureToPtr(public_key.get_bytes(), public_key_blob, false);
-
-            IntPtr message_ptr = Marshal.AllocHGlobal(Marshal.SizeOf(message));
-
-            Marshal.StructureToPtr(message, message_ptr, false);
-
-
-
-            var result = ffi.ffi.pq_sign(out sign_length_ptr, IntPtr.Zero, private_key.get_bytes().Length, private_key_blob, public_key.get_bytes().Length, public_key_blob, message.Length, message_ptr);
+            var result = ffi.ffi.pq_sign(out sign_length_ptr, IntPtr.Zero, priv_key_len, private_key_blob, pub_key_len, public_key_blob, message_len, message_ptr);
 
             if (result != 0)
                 Console.WriteLine("We got problems");
 
-            result = ffi.ffi.pq_sign(out sign_length_ptr, sign, private_key.get_bytes().Length, private_key_blob, public_key.get_bytes().Length, public_key_blob, message.Length, message_ptr);
+
+            sign = Marshal.AllocHGlobal(sign_length_ptr.ToInt32());
+
+            result = ffi.ffi.pq_sign(out sign_length_ptr, sign, priv_key_len, private_key_blob, pub_key_len, public_key_blob, message_len, message_ptr);
+
 
             if (result != 0)
                 Console.WriteLine("We got problems");
 
-            return new byte[sign.ToInt32()];
+
+            byte[] sign_slice = new byte[sign_length_ptr.ToInt32()];
+            Marshal.Copy(sign, sign_slice, 0, sign_length_ptr.ToInt32());
+
+            Marshal.FreeHGlobal(private_key_blob);
+            Marshal.FreeHGlobal(sign);
+            Marshal.FreeHGlobal(public_key_blob);
+            Marshal.FreeHGlobal(message_ptr);
+
+            return sign_slice;
         }
 
         public static bool verify(byte[] signature, PublicKey public_key, byte[] message) {

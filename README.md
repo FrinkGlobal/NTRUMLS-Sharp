@@ -7,8 +7,8 @@ This wrapper intends to use only Mono 2.0  libraries to make it compatible with 
 
 ### TODO
 - [x] Generate Keys
-- [] Sign message Keys
-- [] Verify message
+- [x] Sign message Keys
+- [x] Verify message
 
 ## Dependencies
 

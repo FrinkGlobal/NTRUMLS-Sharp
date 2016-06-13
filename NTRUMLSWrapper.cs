@@ -23,9 +23,6 @@ namespace NTRUMLS.Library {
 
             var result = ffi.ffi.pq_gen_key(parameter, out privkey_blob_len, pv_ptr, out pubkey_blob_len, pb_ptr);
 
-            Console.WriteLine("Result: " + result + " Private Key BLob Length: " + privkey_blob_len.ToInt32() + " Public Key Blob Lengh: " + pubkey_blob_len);
-
-
            if (result != 0)
               Console.WriteLine("We got problems");
 
@@ -38,8 +35,6 @@ namespace NTRUMLS.Library {
 
             if (result != 0)
                 Console.WriteLine("We got problems");
-
-           Console.WriteLine("Result: " + result.ToString() + " Private Key BLob Length: " + privkey_blob_len + " Public Key Blob Lengh: " + pubkey_blob_len);
 
             byte[] privkeyBytes = new byte[privkey_blob_len.ToInt32()];
             byte[] pubkeyBytes = new byte[pubkey_blob_len.ToInt32()];

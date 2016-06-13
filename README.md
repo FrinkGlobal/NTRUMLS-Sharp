@@ -9,6 +9,7 @@ This wrapper intends to use only Mono 2.0  libraries to make it compatible with 
 - [x] Generate Keys
 - [x] Sign message Keys
 - [x] Verify message
+- [ ] Documentation
 
 ## Dependencies
 

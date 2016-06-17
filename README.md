@@ -35,7 +35,7 @@ for example
 `gcc -shared -o libntrumls.so crypto_hash_sha512.o crypto_stream.o randombytes.o fastrandombytes.o shred.o convert.o pack.o pol.o params.o pqntrusign.o`
 
 ### WINDOWS
-`gcc -c -fpic src/crypto_hash_sha512.c src/crypto_stream.c src/randombytes-vs.c src/fastrandombytes.c src/shred.c src/convert.c src/pack.c src/pol.c src/params.c src/pqntrusign.c`
+`gcc -c -fpic src\crypto_hash_sha512.c src\crypto_stream.c src\randombytes-vs.c src\fastrandombytes.c src\shred.c src\convert.c src\pack.c src\pol.c src\params.c src\pqntrusign.c`
 
 `gcc -shared -o ntrumls.dll crypto_hash_sha512.o crypto_stream.o randombytes-vs.o fastrandombytes.o shred.o convert.o pack.o pol.o params.o pqntrusign.o`
 
@@ -59,10 +59,6 @@ execute the test program
 
 `mono Program.exe`
 
-# Known Issues
-
-## Windows
-Throws DLL not found issue, even though the ntrumls.dll is the same folder and System32 folder
 
 
 # License

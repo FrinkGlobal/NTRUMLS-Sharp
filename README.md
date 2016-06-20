@@ -44,9 +44,9 @@ Open Xcode and click File -> New -> Project (or Shift + Command + N)
 
 Choose Framework & Library under OS X
 
-Then Choose Bundle and name the project "ntrumls"
+Than Choose Bundle and name the project "ntrumls"
 
-__EXCLUDING__  `sanity.c` and `bench.c` Drag and drop all the `.c` and `.h` files from NTRUMLS-Master /src directory into the same folder as `info.plist` in the Xcode project
+__EXCLUDING__  `sanity.c` and `bench.c` drag and drop all the `.c` and `.h` files from NTRUMLS-Master /src directory into the same folder as `info.plist` in the Xcode project
 
 In Build Settings you can switch to your desired architecture type than simply click Product -> Build (or Command + B) and it should successfully build.
 
@@ -55,7 +55,9 @@ In Build Settings you can switch to your desired architecture type than simply c
 
 Download and Install [Android Studio] (https://developer.android.com/studio/index.html)
 
-Make sure you have the Android _NDK_ installed through the Andriod SDK manager and add it to your PATH so you can run ndk-build
+Make sure you have the Android NDK installed through the Andriod SDK manager
+
+Add android tools, platform-tools, and ndk-bundle and bin folder to your PATH so you can run `ndk-build`
 
 Create a new Android Studio project with an empty view.
 
@@ -89,7 +91,7 @@ LOCAL_LDLIBS := -llog
 include $(BUILD_SHARED_LIBRARY)
 ~~~
 
-than run `ndk-build` in the projects root folder.
+than run `ndk-build` in the project root folder.
 
 ## Compiling & Testing NTRUMLS-Sharp
 

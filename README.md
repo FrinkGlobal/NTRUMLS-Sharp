@@ -50,8 +50,11 @@ __EXCLUDING__  `sanity.c` and `bench.c` drag and drop all the `.c` and `.h` file
 
 In Build Settings you can switch to your desired architecture type than simply click Product -> Build (or Command + B) and it should successfully build.
 
+### iOS
 
-### Android
+Coming Soon..
+
+### ANDROID
 
 Download and Install [Android Studio] (https://developer.android.com/studio/index.html)
 

@@ -39,6 +39,58 @@ for example
 
 `gcc -shared -o ntrumls.dll crypto_hash_sha512.o crypto_stream.o randombytes-vs.o fastrandombytes.o shred.o convert.o pack.o pol.o params.o pqntrusign.o`
 
+### MAC
+Open Xcode and click File -> New -> Project (or Shift + Command + N)
+
+Choose Framework & Library under OS X
+
+Then Choose Bundle and name the project "ntrumls"
+
+__EXCLUDING__  `sanity.c` and `bench.c` Drag and drop all the `.c` and `.h` files from NTRUMLS-Master /src directory into the same folder as `info.plist` in the Xcode project
+
+In Build Settings you can switch to your desired architecture type than simply click Product -> Build (or Command + B) and it should successfully build.
+
+
+### Android
+
+Download and Install [Android Studio] (https://developer.android.com/studio/index.html)
+
+Make sure you have the Android _NDK_ installed through the Andriod SDK manager and add it to your PATH so you can run ndk-build
+
+Create a new Android Studio project with an empty view.
+
+Create a folder in the root project folder called "jni"
+
+__EXCLUDING__  `sanity.c` and `bench.c` Drag and drop all the `.c` and `.h` files from NTRUMLS-Master /src directory into the jni folder.
+
+Create a file called `Android.mk` in the jni folder with the following contents
+~~~
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+
+LOCAL_ARM_MODE := arm
+
+
+LOCAL_MODULE := libntrumls
+LOCAL_CFLAGS := -Werror
+LOCAL_SRC_FILES := crypto_hash_sha512.c \
+                    crypto_stream.c \
+                    convert.c \
+                    randombytes.c \
+                    fastrandombytes.c \
+                    pack.c \
+                    pol.c \
+                    params.c \
+                    pqntrusign.c \
+                    shred.c
+
+LOCAL_LDLIBS := -llog
+
+include $(BUILD_SHARED_LIBRARY)
+~~~
+
+than run `ndk-build` in the projects root folder.
+
 ## Compiling & Testing NTRUMLS-Sharp
 
 In a shell terminal, navigate to the directory where you extracted NTRUMLS-Sharp

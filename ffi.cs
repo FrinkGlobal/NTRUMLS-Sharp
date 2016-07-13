@@ -1,8 +1,8 @@
 using System;
 using System.Runtime.InteropServices;
-using NTRUMLS.Params;
 
-namespace NTRUMLS.ffi {
+
+namespace NTRUMLS {
 
     public static class ffi {
 

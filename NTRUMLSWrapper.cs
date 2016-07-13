@@ -1,9 +1,8 @@
-using NTRUMLS.ffi;
 using NTRUMLS.Params;
 using System;
 using System.Runtime.InteropServices;
 
-namespace NTRUMLS.Library {
+namespace NTRUMLS {
 
     public static class NTRUMLSWrapper {
 
@@ -21,7 +20,7 @@ namespace NTRUMLS.Library {
             IntPtr pv_ptr = IntPtr.Zero;
             IntPtr pb_ptr = IntPtr.Zero;
 
-            var result = ffi.ffi.pq_gen_key(parameter, out privkey_blob_len, pv_ptr, out pubkey_blob_len, pb_ptr);
+            var result = ffi.pq_gen_key(parameter, out privkey_blob_len, pv_ptr, out pubkey_blob_len, pb_ptr);
 
            if (result != 0)
               Console.WriteLine("We got problems");
@@ -31,7 +30,7 @@ namespace NTRUMLS.Library {
             pb_ptr = Marshal.AllocHGlobal(pubkey_blob_len.ToInt32());
 
 
-            result = ffi.ffi.pq_gen_key(parameter, out privkey_blob_len, pv_ptr, out pubkey_blob_len, pb_ptr);
+            result = ffi.pq_gen_key(parameter, out privkey_blob_len, pv_ptr, out pubkey_blob_len, pb_ptr);
 
             if (result != 0)
                 Console.WriteLine("We got problems");
@@ -70,7 +69,7 @@ namespace NTRUMLS.Library {
             Marshal.Copy(public_key.get_bytes(), 0, public_key_blob, public_key.get_bytes().Length);
             Marshal.Copy(message, 0, message_ptr, message.Length);
 
-            var result = ffi.ffi.pq_sign(out sign_length_ptr, IntPtr.Zero, priv_key_len, private_key_blob, pub_key_len, public_key_blob, message_len, message_ptr);
+            var result = ffi.pq_sign(out sign_length_ptr, IntPtr.Zero, priv_key_len, private_key_blob, pub_key_len, public_key_blob, message_len, message_ptr);
 
             if (result != 0)
                 Console.WriteLine("We got problems");
@@ -78,7 +77,7 @@ namespace NTRUMLS.Library {
 
             sign = Marshal.AllocHGlobal(sign_length_ptr.ToInt32());
 
-            result = ffi.ffi.pq_sign(out sign_length_ptr, sign, priv_key_len, private_key_blob, pub_key_len, public_key_blob, message_len, message_ptr);
+            result = ffi.pq_sign(out sign_length_ptr, sign, priv_key_len, private_key_blob, pub_key_len, public_key_blob, message_len, message_ptr);
 
 
             if (result != 0)
@@ -110,7 +109,7 @@ namespace NTRUMLS.Library {
             Marshal.Copy(message, 0, msg, message.Length);
             Marshal.Copy(public_key.get_bytes(), 0, pub_blob, public_key.get_bytes().Length);
 
-            var result = ffi.ffi.pq_verify(sig_len, sig, pub_len, pub_blob, msg_len, msg);
+            var result = ffi.pq_verify(sig_len, sig, pub_len, pub_blob, msg_len, msg);
 
 
             Marshal.FreeHGlobal(sig);

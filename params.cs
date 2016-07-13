@@ -1,12 +1,9 @@
 using System;
-using System.Text;
 using System.Runtime.InteropServices;
 
 namespace NTRUMLS.Params {
 
 
-    [SerializableAttribute]
-    [ComVisibleAttribute(true)]
     public enum ParamSetId {
         Xxx20140508401,
         Xxx20140508439,
@@ -123,7 +120,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20140508_401 = new ParamSet(
                 ParamSetId.Xxx20140508401,
-                Marshal.StringToHGlobalAuto("Xxx20140508401\0"),
+                Marshal.StringToHGlobalUni("Xxx20140508401\0"),
                 new byte[] {0xff, 0xff, 0xff},
                 9,
                 18,
@@ -144,7 +141,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20140508_439 = new ParamSet(
             ParamSetId.Xxx20140508439,
-            Marshal.StringToHGlobalAuto("Xxx20140508439\0"),
+            Marshal.StringToHGlobalUni("Xxx20140508439\0"),
             new byte[] {0xff, 0xff, 0xfe},
             9,
             19,
@@ -165,7 +162,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20140508_593 = new ParamSet(
             ParamSetId.Xxx20140508593,
-            Marshal.StringToHGlobalAuto("Xxx20140508593\0"),
+            Marshal.StringToHGlobalUni("Xxx20140508593\0"),
             new byte[] {0xff, 0xff, 0xfd},
             10,
             19,
@@ -187,7 +184,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20140508_743 = new ParamSet(
             ParamSetId.Xxx20140508743,
-            Marshal.StringToHGlobalAuto("Xxx20140508743\0"),
+            Marshal.StringToHGlobalUni("Xxx20140508743\0"),
             new byte[] {0xff, 0xff, 0xfc},
             10,
             20,
@@ -208,7 +205,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20151024_401 = new ParamSet(
             ParamSetId.Xxx20151024401,
-            Marshal.StringToHGlobalAuto("Xxx20151024401\0"),
+            Marshal.StringToHGlobalUni("Xxx20151024401\0"),
             new byte[] {0xff, 0xff, 0xfb},
             9,
             15,
@@ -230,7 +227,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20151024_443 = new ParamSet(
             ParamSetId.Xxx20151024443,
-            Marshal.StringToHGlobalAuto("Xxx20151024443\0"),
+            Marshal.StringToHGlobalUni("Xxx20151024443\0"),
             new byte[] {0xff, 0xff, 0xfa},
             9,
             16,
@@ -252,7 +249,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20151024_563 = new ParamSet(
             ParamSetId.Xxx20151024563,
-            Marshal.StringToHGlobalAuto("Xxx20151024563\0"),
+            Marshal.StringToHGlobalUni("Xxx20151024563\0"),
             new byte[] {0xff, 0xff, 0xf9},
             10,
             16,
@@ -273,7 +270,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20151024_743 = new ParamSet(
             ParamSetId.Xxx20151024743,
-            Marshal.StringToHGlobalAuto("Xxx20151024743\0"),
+            Marshal.StringToHGlobalUni("Xxx20151024743\0"),
             new byte[] {0xff, 0xff, 0xf7},
             10,
             17,
@@ -294,7 +291,7 @@ namespace NTRUMLS.Params {
         /// </summary>
         public static readonly ParamSet Xxx20151024_907 = new ParamSet(
             ParamSetId.Xxx20151024907,
-            Marshal.StringToHGlobalAuto("Xxx20151024907\0"),
+            Marshal.StringToHGlobalUni("Xxx20151024907\0"),
             new byte[] {0xff, 0xff, 0xf6},
             10,
             17,

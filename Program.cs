@@ -1,5 +1,4 @@
 using System;
-using NTRUMLS.Library;
 using NTRUMLS.Params;
 
 namespace NTRUMLS
